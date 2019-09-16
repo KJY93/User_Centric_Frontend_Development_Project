@@ -1,0 +1,192 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Cute Font', cursive, sans-serif;
+}
+
+input[type="email"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #a9a9a9;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.iframe-video-size {
+	width: 300px;
+	height: 320px;
+}
+
+.social-media-logo {
+	margin-right: 5px;
+}
+
+.separator {
+	margin-bottom: 10px;
+	height: 2px;
+	width: 30px;
+	background: rgb(255, 0, 0);
+	z-index: 1;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#advert > h1 {
+	color: #ffffff;
+}
+
+#signup-link {
+	color: #ffffff;
+}
+
+input[type="email"] {
+ 	font-size: 1em;
+}
+
+.col-sm-12, .col-md-6, .nav-link, #signup-link {
+	font-size: 1.3em;
+}
+
+.link-deco:link {
+	text-decoration: none;
+}
+
+.link-deco:hover {
+	font-size:120%;
+}
+
+.link-font-color, button > .link-deco:hover {
+	color: #ffffff;
+}
+
+.box2, .box3 {
+	background: rgba(255,117,117,0.1);
+}
+
+.button-container, p, .challenge-container, #signup-container, .box3, .box2 {
+	text-align: center;
+}
+
+#divider {
+	width: 100%;
+	border: 1px solid black;
+}
+
+footer {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background: rgba(0, 0, 0);
+	color: #ffffff;
+}
+
+.box1 {
+	background:url('../static/background-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*https://codepen.io/adamjohnson/pen/aokGt*/
+/* Skew button design adapted from the above codepen project*/
+.submit-btn {
+	color: #fff;
+	background: #ff0000;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	border: 0;
+	outline: 0;
+	font-size: 1.2rem;
+	padding: 12px 35px;
+	display: inline-block;
+	transform: skew(-21deg);
+	border-radius: 0;
+}
+
+.input-field-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.submit-btn:hover {
+	background: #0069a8; 
+}
+
+span {
+	display: inline-block; /* change to inline-block so that the text can be un-skewed*/
+}
+
+.submit-btn > span { 
+	-webkit-transform: skew(21deg);  /* Un-skew the text */
+}
+
+.btn-group {
+	padding-left: 15px;
+}
+
+.flag-logo {
+	padding-right: 10px;
+}
+
+/* for extra small device */
+@media (max-width: 400px) {
+	.iframe-video-size {
+	width: 260px;
+	height: 320px;
+	}
+}
+
+/* for medium screen device */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.box1 {
+		background:url('../static/background.jpg');
+		background-repeat: no-repeat;
+		height: 550px;
+		background-size: 100% 100%;
+	}	
+
+	.box2 {
+		text-align: center;
+	}
+
+	.btn-group {
+		padding-left: 0;
+	}
+
+	.iframe-video-size {
+		width: 340px;
+		height: 320px;
+	}
+
+}
+
+/* for large screen device */
+@media (min-width: 992px) {
+	.box1 {
+		background:url('../static/background.jpg');
+		background-repeat: no-repeat;
+		height: 600px;
+		background-size: 100% 100%;
+	}	
+
+	.btn-group {
+		padding-left: 0;
+	}
+
+	.submit-btn {
+		padding: 3px 35px;
+	}
+
+	.iframe-video-size {
+		width: 470px;
+		height: 320px;
+	}
+}
