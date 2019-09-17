@@ -170,6 +170,76 @@ span {
 		-webkit-text-fill-color: transparent;
 		font-size: 2.0em;
 	}
+	.location {
+		display: flex;	
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #ffffff;
+		margin-bottom: 20px;
+	}
+	.location:link {
+		text-decoration: none;
+	}
+	.location-name {
+		font-size: 2.0em;
+	}
+	.club-info {
+		font-size: 1.0em;
+		border: 1px solid #ffffff;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 20px;
+	}
+	#location-image-1 {
+		background:url('../static/Paragon.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+	#location-image-2 {
+		background:url('../static/clarke-quay.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+	#location-image-3 {
+		background:url('../static/tanjongpagar.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+	#location-image-4 {
+		background:url('../static/vivocity.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+	#location-image-5 {
+		background:url('../static/rafflesplace.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+	#location-image-6 {
+		background:url('../static/rafflesmall.jpg');
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+		border-radius: 10px;
+		height: 250px;
+	}
+
 }
 
 /* for medium screen device */
