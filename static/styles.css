@@ -273,6 +273,10 @@ span {
 	margin-bottom: 15px;
 }
 
+#contact-form, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
+  font-size: 1.2em;
+}
+
 /* for extra small device */
 @media (max-width: 400px) {
 	.iframe-video-size {
