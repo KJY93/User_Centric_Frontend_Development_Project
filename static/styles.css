@@ -334,6 +334,12 @@ span {
 	.table {
 		font-size: 1.8rem;
 	}
+
+	#contact-us-background {
+		height: 450px;	
+	}
+	
+
 }
 
 /* for large screen device */
