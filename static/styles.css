@@ -301,7 +301,10 @@ span {
 	#timetables-header-background {
 		height: 450px;
 	}
-
+	
+	.table {
+		font-size: 1.8rem;
+	}
 }
 
 /* for large screen device */
