@@ -265,6 +265,10 @@ span {
 	text-align: center;
 }
 
+.generic-submit-btn-container {
+	margin-bottom: 15px;
+}
+
 /* for extra small device */
 @media (max-width: 400px) {
 	.iframe-video-size {
