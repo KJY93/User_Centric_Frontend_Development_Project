@@ -273,7 +273,7 @@ span {
 	margin-bottom: 15px;
 }
 
-#contact-form, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
+.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
   font-size: 1.2em;
 }
 
@@ -338,8 +338,10 @@ span {
 	#contact-us-background {
 		height: 450px;	
 	}
-	
 
+	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
+	  font-size: 2.0em;
+	}
 }
 
 /* for large screen device */
