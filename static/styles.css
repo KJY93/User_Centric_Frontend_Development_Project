@@ -247,6 +247,7 @@ span {
 	height: 250px;
 }
 
+/* override text alignment and font-size*/
 .table {
 	text-align: center;
 	font-size: 1.3rem;
@@ -257,6 +258,11 @@ span {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 200px;	
+}
+
+
+.generic-submit-btn-container, .form-attribute {
+	text-align: center;
 }
 
 /* for extra small device */

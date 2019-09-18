@@ -64,34 +64,94 @@
 			
                 <form method="post" action="">
                     <div class="form-group">
-                        <label for="firstname">FIRST NAME</label>
+                        <div class="form-attribute"><label class="form-attribute" for="firstname">FIRST NAME</label></div>
                         <input type="text" class="form-control" id="firstname" placeholder="First Name">
                     </div>
                     
                     <div class="form-group">
-                        <label for="lastname">LAST NAME</label>
+                        <div class="form-attribute"><label for="lastname">LAST NAME</label></div>
                         <input type="text" class="form-control" id="lastname" placeholder="Last Name">
                     </div>
                     
                     <div class="form-group">
-                        <label for="email-address">EMAIL ADDRESS</label>
+                        <div class="form-attribute"><label for="email-address">EMAIL ADDRESS</label></div>
                         <input type="email" class="form-control" id="email-address" placeholder="Email">
                     </div>
                     
                     <div class="form-group">
-                        <label for="contact-number">CONTACT NUMBER</label>
+                        <div class="form-attribute"><label for="contact-number">CONTACT NUMBER</label></div>
                         <input type="text" class="form-control" id="contact-number" placeholder="Contact Number">
                     </div>
  
                     <div class="form-group">
-                        <label for="message-field">Example textarea</label>
+                        <div class="form-attribute"><label for="message-field">MESSAGE</label></div>
                         <textarea class="form-control" id="message-field" rows="3" placeholder="Enter message here..."></textarea>
                     </div>                   
                     
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="generic-submit-btn-container"><button type="submit" class="btn btn-primary">Submit</button></div>
                 </form>
-			    
 			</div>
+
+			<!-- Footer -->
+			<footer>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 col-md-3">
+							<div>MEMBERSHIP</div>
+							<div class="separator"></div>
+							<div>Individual</div>
+							<div>Corporate</div>
+							<div>Personal Training</div>
+							<div>FAQs</div>												
+						</div>
+
+						<div class="col-sm-12 col-md-2">
+							<div>GET IN TOUCH</div>
+							<div class="separator"></div>
+							<div>Free Trial</div>
+							<div>Careers</div>
+						</div>
+
+						<div class="col-sm-12 col-md-3">
+							<div>FIND US ON</div>
+							<div class="separator"></div>
+							<div>
+								<i class="fab fa-facebook social-media-logo"></i>
+								<i class="fab fa-instagram social-media-logo"></i>
+								<i class="fab fa-youtube social-media-logo"></i>
+								<i class="fab fa-linkedin social-media-logo"></i>
+								<i class="fab fa-twitter social-media-logo"></i>
+							</div>
+						</div>
+
+						<div class="col-sm-12 col-md-4">
+							<div>SUBSCRIBE TO OUR NEWSLETTER</div>
+
+							<div class="separator"></div>
+
+							<form method="post" action="">
+								<div class="input-field-container">
+									<div class="form-group">
+										<input input id="subscription" type="email" class="form-control" placeholder="Email" required>
+									</div>
+
+									<div class="each">
+										<button type="button" class="submit-btn" value="submit"><span>SUBMIT</span></button>
+									</div>
+								</div>
+							</form>
+						</div>	
+
+						<div class="col-sm-12">
+							<img class="flag-logo" src="static/australia-flag.png" alt="australia flag"/>
+							<img class="flag-logo" src="static/uk-flag.png" alt="uk flag"/>
+							<img class="flag-logo" src="static/mys-flag.png" alt="malaysia flag"/>
+							<img class="flag-logo" src="static/sg-flag.png" alt="singapore flag"/>
+							<img class="flag-logo" src="static/jpn-flag.png" alt="japan flag"/>
+						</div>
+					</div>
+				</div>
+			</footer>
 			
 	   </main>
 	</body>
