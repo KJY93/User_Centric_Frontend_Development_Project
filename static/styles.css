@@ -369,5 +369,10 @@ span {
 	
 	#timetables-header-background {
 		height: 600px;
-	}	
+	}
+
+	#contact-us-background {
+		height: 550px;	
+	}
+
 }
