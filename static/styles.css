@@ -340,7 +340,7 @@ span {
 	}
 
 	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
-	  font-size: 2.0em;
+	  font-size: 1.4em;
 	}
 }
 
@@ -373,6 +373,10 @@ span {
 
 	#contact-us-background {
 		height: 550px;	
+	}
+	
+	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
+	  font-size: 1.5em;
 	}
 
 }
