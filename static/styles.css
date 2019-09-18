@@ -339,7 +339,8 @@ span {
 		height: 450px;	
 	}
 
-	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown {
+	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown,
+	.generic-submit-btn-container > button {
 	  font-size: 1.4em;
 	}
 }
