@@ -88,7 +88,7 @@ footer {
 	background:url('../static/background-mobile.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 400px;
+	height: 280px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -303,6 +303,9 @@ span {
 	.contact-us {
 		font-size: 1.5em;
 	}
+	.box1 {
+		height: 220px;
+	}
 }
 
 /* for medium screen device */
@@ -310,7 +313,7 @@ span {
 	.box1 {
 		background:url('../static/background.jpg');
 		background-repeat: no-repeat;
-		height: 550px;
+		height: 400px; /* 550 */
 		background-size: 100% 100%;
 	}	
 
