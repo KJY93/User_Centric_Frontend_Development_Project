@@ -6,6 +6,10 @@ body {
 	font-family: 'Cute Font', cursive, sans-serif;
 }
 
+.nav-item {
+	font-size: 130%;
+}
+
 #subscription {
   background: transparent;
   border: none;
