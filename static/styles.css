@@ -14,6 +14,10 @@ body {
 	background: -webkit-linear-gradient(top, #fee5ac, #ffa824);
 }
 
+.container-fluid > #contact-form {
+
+}
+
 #subscription {
   background: transparent;
   border: none;
@@ -272,8 +276,17 @@ span {
 	height: 200px;	
 }
 
+.contact-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 
 .generic-submit-btn-container, .form-attribute {
+	text-align: center;
+}
+
+.form-group.w-75 {
 	text-align: center;
 }
 
