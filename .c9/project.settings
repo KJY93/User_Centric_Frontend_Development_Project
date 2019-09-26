@@ -1,5 +1,9 @@
 {
+    "instance": {
+        "@automaticShutdown": "30"
+    },
     "language": {
+        "@eslintrc": true,
         "tern_defs": {
             "json()": {
                 "browser": {
