@@ -6,16 +6,22 @@ body {
 	font-family: 'Cute Font', cursive, sans-serif;
 }
 
+/*.nav-status.activelink > span {*/
+/*	border: 1px solid red;	*/
+/*}*/
+
+body.home a.home, body.articles a.articles, body.blog a.blog {
+
+	background-color: green;
+
+}
+
 .nav-item {
 	font-size: 130%;
 }
 
 .table-striped > tbody > tr:nth-child(odd) > td {
 	background: -webkit-linear-gradient(top, #fee5ac, #ffa824);
-}
-
-.container-fluid > #contact-form {
-
 }
 
 #subscription {
@@ -370,6 +376,10 @@ span {
 	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown,
 	.generic-submit-btn-container > button {
 	  font-size: 1.4em;
+	}
+	
+	.location-name, .club-info {
+		font-size: 1.5em;
 	}
 }
 
