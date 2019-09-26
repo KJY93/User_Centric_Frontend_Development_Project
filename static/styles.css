@@ -6,9 +6,9 @@ body {
 	font-family: 'Cute Font', cursive, sans-serif;
 }
 
-/*.nav-status.activelink > span {*/
-/*	border: 1px solid red;	*/
-/*}*/
+.activepage {
+	text-decoration: underline overline;
+}
 
 body.home a.home, body.articles a.articles, body.blog a.blog {
 
