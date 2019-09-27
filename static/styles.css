@@ -430,6 +430,10 @@ span {
 	#contact-us-background {
 		height: 550px;	
 	}
+
+	#contact-us-background > h1 {
+		font-size: 7.5em;
+	}
 	
 	.form-attribute, .form-placeholder:placeholder-shown, textarea:placeholder-shown,
 	.generic-submit-btn-container > button {
