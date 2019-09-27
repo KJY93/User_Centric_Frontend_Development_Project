@@ -9,7 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
     for (var i = 0; i < navlinkitem.length; i++) {
         
         if (navlinkitem[i].href == window.location.href) {
-            navlinkitem[i].parentElement.classList.add('activepage');
+            
+            // add class to navbarbrand logo so that it could be style when index page is the current active page
+            if (navlinkitem[i].className == "navbar-brand") {
+                navlinkitem[i].firstChild.classList.add('activepagelogo');
+            }
+            // for the rest of the navbar item
+            else {
+                
+            }
+                navlinkitem[i].parentElement.classList.add('activepage');
         }
     }  
 });
