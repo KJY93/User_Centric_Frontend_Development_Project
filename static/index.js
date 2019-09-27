@@ -16,9 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             // for the rest of the navbar item
             else {
-                
+                navlinkitem[i].parentElement.classList.add('activepage');   
             }
-                navlinkitem[i].parentElement.classList.add('activepage');
         }
     }  
 });
