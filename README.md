@@ -1,6 +1,6 @@
-Milestone Project One:  User Centric FrontEnd Development
+# Milestone Project One:  User Centric FrontEnd Development
 
-# Shape Shifters 
+## Shape Shifters 
 
 This project focuses on the website development for a fictional gym called "Shape Shifters".
 The website was designed to be intuitive, easy to navigate and is targeted towards gym goers and also the public in general.
@@ -81,8 +81,7 @@ verification, authentication and the data collected can be persisted in the data
 ## Project Surface
 The color scheme of red, black and orange are the main theme of the website and it is an 
 inspiration from the Virgin Active and the FitnessFirst website. Those three colors were
-selected as these bright colors according to the psychology of colors website(https://smallbiztrends.com/2014/06/psychology-of-colors.html)  
-will lead the users feeling more energetic and can evoke a better response of the user.
+selected as these bright colors according to the psychology of colors website(https://smallbiztrends.com/2014/06/psychology-of-colors.html) will lead the users feeling more energetic and can evoke a better response of the user.
 This is in agreement with the gym's objective which is to attract the users to sign up
 for classes and their gym's membership plan.
 
@@ -95,8 +94,7 @@ for classes and their gym's membership plan.
 
 ## Testing
 ### 1. Mobile Responsiveness
-The website was tested across multiple device screen sizes (small: iPhone 5, Galaxy S5, Pixel 2, medium: iPad, large: iPad Pro)
-Website scale responsively according to the device screen size when tested in the Developer tools.
+The website was tested across multiple device screen sizes (small: iPhone 5, Galaxy S5, Pixel 2, medium: iPad, large: iPad Pro). Website scale responsively according to the device screen size when tested in the Developer tools.
 
 ### 2. Browser Compatibility
 The website was tested across Chrome, Opera and Firefox to ensure browser compatibility
