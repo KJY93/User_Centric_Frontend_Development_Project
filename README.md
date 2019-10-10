@@ -50,7 +50,9 @@ iv. Contact Us - The "Contact Us" section allows the user to reach out to the gy
                  inquiries by filling out the necessary fields in the contact-us form.
 
 ### b. Wireframes
-https://drive.google.com/open?id=1cm3OWW94KwPLHUqSLnQCh5tJu9L5DGkh
+https://drive.google.com/file/d/1cm3OWW94KwPLHUqSLnQCh5tJu9L5DGkh/view?usp=sharing (large screen device)
+https://drive.google.com/file/d/10zCpnpiWHPo9NkaAD1hKuyzeXAjcA6IL/view?usp=sharing (small screen device)
+
 
 ## Project Skeleton
 ### a. Existing features
@@ -81,7 +83,7 @@ verification, authentication and the data collected can be persisted in the data
 ## Project Surface
 The color scheme of red, black and orange are the main theme of the website and it is an 
 inspiration from the Virgin Active and the FitnessFirst website. Those three colors were
-selected as these bright colors according to the psychology of colors website(https://smallbiztrends.com/2014/06/psychology-of-colors.html) will lead the users feeling more energetic and can evoke a better response of the user.
+selected as these bright colors according to the psychology of colors website (https://smallbiztrends.com/2014/06/psychology-of-colors.html) will lead the users feeling more energetic and can evoke a better response of the user.
 This is in agreement with the gym's objective which is to attract the users to sign up
 for classes and their gym's membership plan.
 
